@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+
+body{
+  /* background: linear-gradient(108deg, rgb(251, 250, 45) 0.5%, rgb(214, 4, 4) 29.8%, rgb(241, 57, 221) 59.9%, rgb(95, 11, 228) 84.2%); */
+  background-image: url(https://t4.ftcdn.net/jpg/02/12/42/09/360_F_212420919_RaRn0fgoj2a3k2BZUKxFfGuQTJIFifcz.jpg);
+  background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+  width: 50%;
+  display: block;
+  margin: 2em auto;
+  background-color: white;
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo{
+  display: block;
+  margin: 0 auto;
+  margin-left: 6em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.instructions{
+  font-weight: 200;
+  font-size: 0.8em;
+}
+
+.click-btn{
+  display: block;
+  margin: 3em auto;
+  border: 1px solid #EF4915;
+  background-color: #EF4915;
   color: white;
+  font-weight: bold;
+  border-radius: 7px;
+  width: 20%;
+  padding: 1em 1em;
+  text-align: center;
+  cursor: pointer;
+  transition: 200ms ease-in-out;
 }
 
-.App-link {
-  color: #61dafb;
+.click-btn:hover{
+  background-color: #d43a0b;
+  border: 1px solid #d43a0b;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.idea-wrapper{
+  display: block;
+  margin: 2em auto;
+  width: 80%;
+  padding: 2em;
+  text-align: center;
+  border: 5px solid #EF4915;
+  border-radius: 5px;
+}
+
+.idea-text{
+  font-size: 1.5em;
+  font-weight: 500;
+  font-style: italic;
+  color: #FFDE59;
+}
+
+.generate-here-txt{
+  font-size: 1.5em;
+  font-style: italic;
+  color: #EF4915;
+}
+
+footer{
+  text-align: center;
+  font-size: 0.7em;
+  opacity: 0.6;
+  padding: 2em;
 }

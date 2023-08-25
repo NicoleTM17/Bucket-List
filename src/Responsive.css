@@ -1,0 +1,39 @@
+
+@media (max-width: 960px){
+
+  .container{
+    width: 80%;
+   }
+}
+
+@media (max-width: 720px){
+
+  .container{
+    width: 80%;
+  }
+}
+
+
+@media (max-width: 540px){
+
+  .container{
+    width: 90%;
+  }
+
+  .logo{
+    width: 70%;
+  }
+
+  .instructions{
+    font-size: 0.7em;
+    margin-left: -2em;
+  }
+
+  .idea-wrapper{
+    width: 60%;
+  }
+
+  .idea-text{
+    font-size: 1em;
+  }
+}
